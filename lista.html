@@ -21,6 +21,8 @@
             <li>João</li>
         </ul>
         <h2>Tarefas a fazer</h2>
+        <input type="button" class="botao" name="alterar" value="Alterar" />
+        <input type="button" class="botao" name="alterar" value="Deletar" />
         <table style="width:30%">
             <tr>
                 <th>Nome</th>
@@ -44,6 +46,8 @@
             </tr>
         </table>
         <h2>Tarefas feitas</h2>
+        <input type="button" class="botao" name="alterar" value="Alterar" />
+        <input type="button" class="botao" name="alterar" value="Deletar" />
         <table style="width:30%">
             <tr>
                 <th>Nome</th>
@@ -66,14 +70,13 @@
                 <td>20/04</td>
             </tr>
         </table>
-        <h2>Realizar operação:</h2>
+        <h2>Realizar operação</h2>
         <form action="">
-            <input type="radio" id="criar" name="opcao" value="criar">
-            <label for="criar">Criar tarefa</label><br>
-            <input type="radio" id="atualizar" name="opcao" value="atualizar">
-            <label for="atualizar">Atualizar tarefa</label><br>
-            <input type="radio" id="deletar" name="opcao" value="deletar">
-            <label for="deletar">Deletar tarefa</label>
+            <h3>Cadastrar tarefa</h3>
+            <input type="radio" id="feita" name="opcao" value="feita">
+            <label for="feita">A fazer</label><br>
+            <input type="radio" id="afazer" name="opcao" value="afazer">
+            <label for="afazer">Feita</label><br>
             <br>
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" />
